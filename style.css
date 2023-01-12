@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(28, 28, 28, 1);
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  line-height: 1.2;
+}
+
+.container {
+  background-color: rgba(31, 41, 55, 1);
+  max-width: 500px;
+  padding: 4em;
+  border-radius: 10px;
+}
+
+.header {
+  border-bottom: 1px solid #d5d4d8;
+  margin-bottom: 2em;
+}
+
+.title {
+  font-size: 2.3rem;
+  font-weight: 900;
+  color: #d5d4d8;
+}
+
+.subheading {
+  color: #d5d4d8;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 2.5em;
+}
+
+span {
+  color: rgba(16, 185, 129, 1);
+}
+
+.btn {
+  border: 0;
+  background-color: rgba(16, 185, 129, 1);
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  margin-bottom: 2em;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(45, 231, 169);
+}
+
+.password-section {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+  gap: 1em;
+}
+
+input {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 0.75em;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgba(39, 53, 73, 1);
+  outline: 0;
+}
+
+.password {
+  color: rgb(45, 231, 169);
+}
