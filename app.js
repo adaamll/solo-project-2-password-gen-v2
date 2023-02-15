@@ -6,6 +6,7 @@ let password;
 
 let btnEl = document.getElementById('btn-el');
 
+// FUNCTION TO GENERATE A RANDOM PASSWORD
 function generatePassword() {
   let chars =
     '0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*=?()ABCDEFGHIJKLMNOPQRSTUVWXYZ!';
@@ -17,6 +18,7 @@ function generatePassword() {
   return password;
 }
 
+// FUNCTION TO UPDATE UI
 function displayPassword() {
   generatePassword();
   password1.value = password;

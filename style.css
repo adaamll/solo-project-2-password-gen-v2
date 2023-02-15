@@ -77,3 +77,35 @@ input {
 .password {
   color: rgb(45, 231, 169);
 }
+
+/* MEDIA QUERY */
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 340px;
+    padding: 2em;
+    border-radius: 5px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #d5d4d8;
+  }
+
+  .subheading {
+    font-size: 0.8rem;
+  }
+
+  .password-section {
+    flex-direction: column;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  input {
+    font-size: 0.7rem;
+  }
+}
